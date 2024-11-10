@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>VilaCompany</title>
+    <style>
+      .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info li {
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact-info i {
+    margin-right: 5px;
+}
+
+    </style>
+</head>
+<body>
+  <!--Header-->
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <span class="fs-4">VilaCompany</span>
+        </a> 
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="index.html" class="nav-link"  aria-current="page">Ballina</a></li>
+            <li class="nav-item"><a href="Njesit.html" class="nav-link">Njesit</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Rreth Nesh</a></li>
+        </ul>
+    </header>
+</div>
+    <!--Main-->
+    <main class="container">
+      <section class="bg-white text-dark">
+          <div class="py-5 px-4 mx-auto max-w-screen-xl">
+              <div class="bg-light border border-secondary rounded-lg p-4 mb-4">
+                  <h1 class="text-dark display-4 mb-2">Rreth Nesh</h1>
+                  <p class="lead mb-6">
+                  <p><i class="fa-solid fa-location-dot"></i> RR Sadik Shala, Lipjan 14000</p>
+                  <p><i class="fa-solid fa-phone"></i> +383 ## ### ###</p>
+                  <p><i class="fas fa-envelope icon-email"></i> VilaCompany@example.com</p>
+                  <p><i class="fa-solid fa-clock"></i> Open: 7:00 AM - 6:00 PM</p>
+              </div>
+              <div class="row g-4">
+                  <div class="col-md-6">
+                      <div class="bg-light border border-secondary rounded-lg p-4">
+                          <p class="mb-4">       <div class="wrapper">
+                            <form class="form">
+                              <div class="pageTitle title">Contact Us </div>
+                              <div class="secondaryTitle title">Feel free to ask anything</div>
+                              <input type="text" class="name formEntry" placeholder="Name" />
+                              <input type="text" class="email formEntry" placeholder="Email"/>
+                              <textarea class="message formEntry" placeholder="Message"></textarea>
+                              <button class="submit formEntry" onclick="thanks()">Submit</button>
+                            </form>
+                          </div></p>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="bg-light border border-secondary rounded-lg p-4">
+                          <p class="mb-4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2940.4064808139324!2d21.122626776797084!3d42.52541937117804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13548342f4158559%3A0x60854b90071b247a!2sGreen%20Park!5e0!3m2!1sen!2s!4v1731143862759!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <div id="wrapper">
+                              <div id="soc-med-links">
+                                  <div class="soc-med-links-item">
+                                      <a href="https://www.facebook.com/" target="_blank">
+                                          <div class="soc-med-links-item-icon bg-primary">
+                                              <i class="fa-brands fa-facebook-f"></i>
+                                          </div>
+                                          <div class="soc-med-links-item-text">
+                                            VilaCompany
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <div class="soc-med-links-item">
+                                      <a href="https://twitter.com/" target="_blank">
+                                          <div class="soc-med-links-item-icon bg-secondary">
+                                              <i class="fa-brands fa-x-twitter"></i>
+                                          </div>
+                                          <div class="soc-med-links-item-text">
+                                            VilaCompany
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <div class="soc-med-links-item">
+                                      <a href="https://www.instagram.com/" target="_blank">
+                                          <div class="soc-med-links-item-icon bg-gradient">
+                                              <i class="fa-brands fa-instagram"></i>
+                                          </div>
+                                          <div class="soc-med-links-item-text">
+                                            VilaCompany
+                                          </div>
+                                      </a>
+                                  </div>
+                                  <div class="soc-med-links-item">
+                                      <a href="https://www.youtube.com/" target="_blank">
+                                          <div class="soc-med-links-item-icon bg-red">
+                                              <i class="fa-brands fa-youtube"></i>
+                                          </div>
+                                          <div class="soc-med-links-item-text">
+                                            VilaCompany
+                                          </div>
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>                          
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </main>
+    <!--Footer-->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="contact-info justify-content-between border-bottom pb-3 mb-3">
+          <li><i class="fa-solid fa-location-dot"></i> RR Sadik Shala, Lipjan 14000</li>
+          <li><i class="fa-solid fa-phone"></i> +383 ## ### ###</li>
+          <li><i class="fas fa-envelope icon-email"></i> VilaCompany@example.com</li>
+          <li><i class="fa-solid fa-clock"></i> Open: 7:00 AM - 6:00 PM</li>
+          <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+      </ul>
+      <p class="text-center text-body-secondary">&copy; 2024 VilaCompany</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
